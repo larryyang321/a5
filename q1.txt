@@ -1,0 +1,22 @@
+without pad
+
+0x644c10 0x644c08 0x644c00 0x644bf8
+2000000000
+2000000000
+25.09u 0.07s 0:13.07
+
+with pad
+
+0x644cc0 0x644c80 0x644c40 0x644c00
+2000000000
+2000000000
+8.78u 0.01s 0:04.41
+
+b> when we use pad, the difference between each counter is 
+64-bits and the time result is way faster than non-pading
+becasue its increase the system's performance due to the way the CPU handles memory
+in non-pad, the difference between each counter is 8 bits
+
+c>the order are in descreaing order since the stack is growing backwards
+
+d> void * allowed to print hex format

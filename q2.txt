@@ -1,0 +1,5 @@
+i think is a livelock
+
+each angels are not holding any resouces and they just check if there is any eye on them. its same as the "you go first" problem.
+
+when first angel try to move but she detect there is an eye on her so she cannot move(continue checking). same as second angel and the rest. they always detect that there are eyes on them so they cannot move. howver, they will continue checking but they are not holding any mutex resources.
